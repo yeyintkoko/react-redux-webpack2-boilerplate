@@ -61,6 +61,26 @@ const rules = [
     include: imgPath,
     use: 'url-loader?limit=20480&name=assets/[name]-[hash].[ext]',
   },
+  {
+    test: /\.css$/,
+    use: 'css-loader',
+  },
+  {
+    test: /\.woff2?(\?v=\d+\.\d+\.\d+)?$/,
+    use: 'url-loader?limit=20480&mimetype=application/font-woff',
+  },
+  {
+    test: /\.ttf(\?v=\d+\.\d+\.\d+)?$/,
+    use: 'url-loader?limit=20480&mimetype=application/octet-stream',
+  },
+  {
+    test: /\.eot(\?v=\d+\.\d+\.\d+)?$/,
+    use: 'file-loader',
+  },
+  {
+    test: /\.svg(\?v=\d+\.\d+\.\d+)?$/,
+    use: 'url-loader?limit=20480&mimetype=image/svg+xml',
+  },
 ];
 
 if (isProduction) {

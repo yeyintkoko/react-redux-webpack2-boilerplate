@@ -48,6 +48,7 @@ export default class Dashboard extends Component {
 
     return (
       <div className='Dashboard'>
+        <div className='alert alert-success' role='alert'>Yay, I am a bootstrap component!</div>
         <h2>Examples</h2>
         <hr />
         <div>
