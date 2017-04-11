@@ -1,5 +1,7 @@
 # React and Redux, Webpack 2 boilerplate
 
+## This is a fork for react-redux-webpack2-boilerplate from Stanko and updated all dependencies to latest versions of current (April 11, 2017). So be careful with react router which is in 4.0.0 (current latest version) and it is a change from 3.x. Read doc from https://reacttraining.com/react-router/web/example/basic.
+
 ## Table of contents
 * [What is this?](#user-content-what-is-this)
 * [Features](#user-content-features)
